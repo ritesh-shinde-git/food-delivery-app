@@ -2,7 +2,9 @@ import React, { useContext, useEffect, useState } from 'react'
 import './MyOrders.css'
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
-import { assets } from '../../assets/assets';
+import { assets } from '../../assets/assets'
+import Myorders from "./pages/MyOrders/MyOrders";
+
 const Myorders = () => {
 
     const {url,token} = useContext(StoreContext);
